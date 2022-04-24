@@ -3,7 +3,7 @@ package main
 import (
 	"bytes"
 	abcitypes "github.com/tendermint/tendermint/abci/types"
-	"github.com/dgraph-io/badger"
+	"github.com/dgraph-io/badger/v3"
 )
 
 type KVStoreApplication struct {
